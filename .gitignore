@@ -1,0 +1,8 @@
+Models/
+court_dataset/
+runs/
+.DS_Store
+.idea
+input_videos/
+**/images/
+**/labels/
