@@ -2,7 +2,14 @@ Models/
 court_dataset/
 runs/
 .DS_Store
-.idea
+.idea/
 input_videos/
 **/images/
 **/labels/
+*.pt
+*.pth
+*.h5
+*.ckpt
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
