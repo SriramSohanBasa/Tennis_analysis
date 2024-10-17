@@ -4,6 +4,7 @@ runs/
 .DS_Store
 .idea/
 input_videos/
+output_videos/
 **/images/
 **/labels/
 *.pt
