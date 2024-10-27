@@ -34,6 +34,7 @@ class PlayerTracker:
         return filtered_player_detections  # Return the list of filtered player detections.
 
     def choose_players(self, court_keypoints, player_dict):
+        
         """
         Choose the two players that are closest to the court keypoints.
         :param court_keypoints: List of court keypoints used to measure proximity.
