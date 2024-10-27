@@ -24,7 +24,7 @@ def main():
     ball_detections= ball_tracker.detect_frames(video_frames,
                                                 read_from_stub=True,
                                                 stub_path="tracker_stubs/ball_detections.pkl")
-    
+    ball_detections = ball_tracker.interpolate_ball_positions(ball_detections)
 
 
 
