@@ -1,8 +1,8 @@
-from ultralytics import YOLO  # Importing the YOLO model from the Ultralytics library for object detection and tracking.
-import cv2  # Importing OpenCV library for video processing and image manipulation.
-import pickle  # Importing the pickle module for saving and loading data (used to store player detection data).
-import sys  # Importing sys for system-related functionalities, such as manipulating the Python path.
-sys.path.append('../')  # Adding the parent directory to the system path to access modules (like 'utils') from there.
+from ultralytics import YOLO 
+import cv2  
+import pickle 
+import sys  
+sys.path.append('../')  
 from utils import measure_distance, get_center_of_bbox  # Importing helper functions to calculate distances and get the center of bounding boxes.
 
 # Define a class to track players in tennis videos using the YOLO model

@@ -15,6 +15,7 @@ def main():
 
     player_detections = player_tracker.detect_frames(video_frames)
 
+    #player_detections = player_tracker.choose_and_filter_players(court_keypoints, player_detections)
 
     #draw output
 

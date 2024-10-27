@@ -12,13 +12,13 @@ def get_foot_position(bbox):
 def get_closest_keypoint_index(point, keypoints, keypoint_indices):
    closest_distance = float('inf')
    key_point_ind = keypoint_indices[0]
-   for keypoint_indix in keypoint_indices:
-       keypoint = keypoints[keypoint_indix*2], keypoints[keypoint_indix*2+1]
+   for keypoint_index in keypoint_indices:
+       keypoint = keypoints[keypoint_index*2], keypoints[keypoint_index*2+1]
        distance = abs(point[1]-keypoint[1])
 
        if distance<closest_distance:
            closest_distance = distance
-           key_point_ind = keypoint_indix
+           key_point_ind = keypoint_index
     
    return key_point_ind
 
